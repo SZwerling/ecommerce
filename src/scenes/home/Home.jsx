@@ -1,7 +1,14 @@
-
+import ShoppingList from "./ShoppingList";
+// import Subscribe from "./Subscribe";
+import MainCarousel from "./MainCarousel";
 
 const Home = () => {
-    return <div>home</div>
+    return (
+        <div className="home">
+            <MainCarousel />
+            <ShoppingList />
+        </div>
+    )
 }
 
 export default Home;
